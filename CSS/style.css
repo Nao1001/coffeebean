@@ -48,6 +48,10 @@ body{
   /* border: 2px solid red; */
 }
 
+.nav .icon {
+  display:none;
+}
+
 .nav h1{
   width: 50%;
   float: left;
@@ -60,6 +64,7 @@ body{
   /* border: 2px solid green; */
   text-align: right;
   padding-top: 10px;
+  /* border: 2px solid red; */
 }
 
 .nav li {
@@ -470,6 +475,12 @@ label.form-inline {
 {
   /* if the screen size/ width is 0px-768pz, it will apply the styles below */
 
+  .nav .icon {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    float: right;
+  }
   .nav a {
     text-align:center;
     /* margin-left:auto;
